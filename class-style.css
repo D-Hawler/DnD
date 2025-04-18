@@ -21,6 +21,8 @@ body {
 }
 
 .title {
+    margin-bottom: 40px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,9 +32,29 @@ body {
 }
 
 .levelSection {
+    word-wrap: break-word;
     flex: 0 0 20%;
+    min-width: 20%;
+
+    padding-left: 10px;
+    align-content: center;
 }
 
 .nameSection {
+    word-wrap: break-word;
     flex: 0 0 80%;
+    min-width: 80%;
+}
+.nameSection li {
+    margin-bottom: 10px;
+}
+.nameSection li:last-child {
+    margin-bottom: 0;
+}
+.starMarker {
+    list-style: none;
+}
+.starMarker::before {
+    content: "★";
+    margin-right: 8px;
 }
