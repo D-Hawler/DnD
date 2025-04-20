@@ -40,21 +40,32 @@ body {
     align-content: center;
 }
 
+ul {
+    padding: 0 0 20px 20px;
+}
+
 .nameSection {
     word-wrap: break-word;
     flex: 0 0 80%;
     min-width: 80%;
 }
 .nameSection li {
-    margin: 10px 0;
+    padding: 0;
+    margin: 10px 20px;
 }
 .nameSection li:last-child {
     margin-bottom: 0;
 }
 .starMarker {
-    list-style: none;
+    list-style: "★ ";
 }
-.starMarker::before {
-    content: "★";
-    margin-right: 8px;
+
+.subClassOne {
+    background-color: rgba(110, 110, 110, 0.4);
+}
+.subClassTwo {
+    background-color: rgba(172, 123, 32, 0.4);
+}
+.subClassThee {
+    background-color: rgba(35, 65, 172, 0.4);
 }
