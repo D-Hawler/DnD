@@ -2,7 +2,8 @@ import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import type { RefObject } from 'react';
 
-import './NavigationPanel.module.css';
+import home from '../../assets/home.png';
+import './NavigationPanel.css';
 
 interface ClassPageProps {
   level5: RefObject<HTMLDivElement | null>;
@@ -26,7 +27,7 @@ function NavigationPanel({
       >
         <button>
           <Link to="/">
-            <img src="src\assets\home.png" />
+            <img src={home} />
           </Link>
         </button>
         {className !== undefined && (
