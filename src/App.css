@@ -1,0 +1,13 @@
+@import './variables.css';
+
+main {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.placeholder {
+  flex: 0 0 5%;
+}

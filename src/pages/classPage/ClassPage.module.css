@@ -1,0 +1,72 @@
+.classPage {
+  flex: 1 1 100%;
+}
+
+.classPage > header {
+  padding: 20px 10px;
+  margin: 10px 20px;
+
+  background-color: var(--navigation-color);
+  border-radius: 20px;
+}
+
+.classPage > header > a {
+  text-decoration: none;
+  color: inherit;
+
+  display: flex;
+  align-items: center;
+}
+
+.classPage > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.classPage > div > article {
+  margin: 20px 0;
+
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+
+  display: flex;
+}
+
+.classPage > div > article > h2 {
+  padding: 0 10px;
+
+  border-left: 2px solid var(--border-color);
+
+  text-align: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.classPage > div > article > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.classPage > div > article > div > div {
+  padding: 10px;
+}
+
+.classPage > div > article > div > div:nth-child(1) {
+  background-color: rgba(110, 110, 110, 0.4);
+}
+
+.classPage > div > article > div > div:nth-child(2) {
+  background-color: rgba(172, 123, 32, 0.4);
+}
+
+.classPage > div > article > div > div:nth-child(3) {
+  background-color: rgba(35, 65, 172, 0.4);
+}
+
+.classPage > div > article > div > div > ul {
+  padding: 10px 20px;
+}
+
+.classPage > div > article > div > div > ul > li {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,61 @@
+@import '../../variables.css';
+
+:global(nav) {
+  padding: 5px 0;
+  width: 100%;
+  height: var(--navigation-height);
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  background-color: var(--navigation-color);
+}
+
+:global(nav > div) {
+  padding: 0 20px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+:global(nav > div > ul) {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+:global(nav > div > ul > li) {
+  list-style: none;
+}
+
+:global(nav > div > ul > li > button) {
+  padding: 5px 8px;
+
+  font-weight: 900;
+
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+:global(nav > div > button) {
+  padding: 5px 8px;
+
+  font-weight: 900;
+
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+}
+
+:global(nav > div > ul > li > button:active),
+:global(nav > div > button:active) {
+  transform: scale(0.9);
+}
+
+:global(nav > div > button > a > img) {
+  width: 15px;
+  height: 15px;
+}

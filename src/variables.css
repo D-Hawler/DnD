@@ -1,0 +1,8 @@
+:root {
+  --main-color: rgb(255, 255, 255);
+  --border-color: rgb(0, 0, 0);
+  --card-color: rgba(37, 68, 182, 0.6);
+
+  --navigation-color: rgb(79, 102, 187);
+  --navigation-height: 41;
+}
