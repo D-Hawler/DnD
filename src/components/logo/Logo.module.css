@@ -1,0 +1,26 @@
+@import '../../variables.css';
+
+.logo {
+  padding: 10px 5px;
+  margin: 10px 20px;
+
+  background-color: var(--navigation-color);
+  border-radius: 20px;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: inherit;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo > a > img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo > h1 {
+  font-size: 2.5rem;
+}

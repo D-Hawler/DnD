@@ -1,6 +1,6 @@
 @import '../../variables.css';
 
-:global(nav) {
+nav {
   padding: 5px 0;
   width: 100%;
   height: var(--navigation-height);
@@ -12,7 +12,7 @@
   background-color: var(--navigation-color);
 }
 
-:global(nav > div) {
+nav > div {
   padding: 0 20px;
 
   display: flex;
@@ -20,7 +20,7 @@
   justify-content: space-evenly;
 }
 
-:global(nav > div > ul) {
+nav > div > ul {
   width: 100%;
 
   display: flex;
@@ -28,11 +28,11 @@
   align-items: center;
 }
 
-:global(nav > div > ul > li) {
+nav > div > ul > li {
   list-style: none;
 }
 
-:global(nav > div > ul > li > button) {
+nav > div > ul > li > button {
   padding: 5px 8px;
 
   font-weight: 900;
@@ -41,7 +41,7 @@
   border-radius: 10px;
 }
 
-:global(nav > div > button) {
+nav > div > button {
   padding: 5px 8px;
 
   font-weight: 900;
@@ -50,12 +50,12 @@
   border-radius: 50%;
 }
 
-:global(nav > div > ul > li > button:active),
-:global(nav > div > button:active) {
+nav > div > ul > li > button:active,
+nav > div > button:active {
   transform: scale(0.9);
 }
 
-:global(nav > div > button > a > img) {
+nav > div > button > a > img {
   width: 15px;
   height: 15px;
 }
