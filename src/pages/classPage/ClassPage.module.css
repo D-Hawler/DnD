@@ -2,22 +2,6 @@
   flex: 1 1 100%;
 }
 
-.classPage > header {
-  padding: 20px 10px;
-  margin: 10px 20px;
-
-  background-color: var(--navigation-color);
-  border-radius: 20px;
-}
-
-.classPage > header > a {
-  text-decoration: none;
-  color: inherit;
-
-  display: flex;
-  align-items: center;
-}
-
 .classPage > div {
   display: flex;
   flex-direction: column;

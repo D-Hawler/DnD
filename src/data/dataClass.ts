@@ -871,102 +871,194 @@ const dataClass: ClassProp[] = [
       },
     },
   },
-  //   a: {
-  //     class: '⚔️ КЛАСС: Воин',
-  //     role: 'фронтлайнер, физический урон, танк.',
-  //     subClasses: {
-  //       subClassOne: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //       subClassTwo: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //       subClassThree: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //     },
-  //   },
-  //   s: {
-  //     class: '⚔️ КЛАСС: Воин',
-  //     role: 'фронтлайнер, физический урон, танк.',
-  //     subClasses: {
-  //       subClassOne: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //       subClassTwo: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //       subClassThree: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //     },
-  //   },
-  //   d: {
-  //     class: '⚔️ КЛАСС: Воин',
-  //     role: 'фронтлайнер, физический урон, танк.',
-  //     subClasses: {
-  //       subClassOne: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //       subClassTwo: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //       subClassThree: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //     },
-  //   },
-  //   w: {
-  //     class: '⚔️ КЛАСС: Воин',
-  //     role: 'фронтлайнер, физический урон, танк.',
-  //     subClasses: {
-  //       subClassOne: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //       subClassTwo: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //       subClassThree: {
-  //         subClassName: '',
-  //         level5: {},
-  //         level10: {},
-  //         level20: {},
-  //       },
-  //     },
-  //   },
+  {
+    path: 'Alchemist',
+    class: 'Алхимик',
+    role: '',
+    icon: '',
+    subClasses: {
+      subClassOne: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+      subClassTwo: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+      subClassThree: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+    },
+  },
+  {
+    path: 'Druid',
+    class: 'Друид',
+    role: '',
+    icon: '',
+    subClasses: {
+      subClassOne: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+      subClassTwo: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+      subClassThree: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+    },
+  },
+  {
+    path: 'Engineer',
+    class: 'Инженер',
+    role: '',
+    icon: '',
+    subClasses: {
+      subClassOne: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+      subClassTwo: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+      subClassThree: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+    },
+  },
+  {
+    path: 'Bard',
+    class: 'Бард',
+    role: '',
+    icon: '',
+    subClasses: {
+      subClassOne: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+      subClassTwo: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+      subClassThree: {
+        subClassName: '',
+        subClassRole: '',
+        level5: {
+          ability: [],
+        },
+        level10: {
+          ability: [],
+        },
+        level20: {
+          ability: [],
+        },
+      },
+    },
+  },
 ];
 
 export { dataClass };
