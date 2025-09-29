@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useLayoutEffect, useState } from 'react';
 
 import MoonIcon from '../MoonIcon/MoonIcon';
 import SunIcon from '../SunIcon/SunIcon';
@@ -10,21 +10,14 @@ function ThemeToggleButton() {
       window.matchMedia('(prefers-color-scheme: dark)').matches;
 
     if (typeof theme === 'string') {
-      if (theme === 'true') return (theme = true);
-      if (theme === 'false') theme = false;
+      if (theme === 'true') theme = true;
+      else theme = false;
     }
     return theme;
   });
 
-  useEffect(() => {
-    const root = document.getElementById('root');
-
-    if (!root) {
-      throw new Error('Root container not found');
-    }
-    root.classList.toggle('dark-theme', isDark === true);
-
-    console.log(isDark);
+  useLayoutEffect(() => {
+    document.documentElement.classList.toggle('dark-theme', isDark === true);
   }, [isDark]);
 
   const themeSwitcher = () => {
