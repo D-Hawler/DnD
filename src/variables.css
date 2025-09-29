@@ -1,9 +1,9 @@
 :root {
   --main-color: rgb(234, 234, 234);
-  --border-color: rgb(18, 18, 18);;
+  --border-color: rgb(18, 18, 18);
   --card-color: rgba(37, 68, 182, 0.6);
 
-  --main-text-color: rgb(18, 18, 18);;
+  --main-text-color: rgb(18, 18, 18);
 
   --navigation-color: rgb(79, 102, 187);
   --navigation-height: 41;
@@ -13,18 +13,16 @@
   --class-bg-3: rgba(35, 65, 172, 0.4);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-color: rgb(18, 18, 18);
-    --border-color: rgb(234, 234, 234);
-    --card-color: rgb(30, 30, 47);
+#root.dark-theme {
+  --main-color: rgb(18, 18, 18);
+  --border-color: rgb(234, 234, 234);
+  --card-color: rgb(30, 30, 47);
 
-    --main-text-color: rgb(234, 234, 234);
+  --main-text-color: rgb(234, 234, 234);
 
-    --navigation-color: #2c2c4c;
+  --navigation-color: rgb(44, 44, 76);
 
-    --class-bg-1: rgba(60, 45, 90, 0.6);
-    --class-bg-2: rgba(80, 40, 120, 0.6);
-    --class-bg-3: rgba(30, 30, 45, 0.6);
-  }
+  --class-bg-1: rgba(60, 45, 90, 0.6);
+  --class-bg-2: rgba(80, 40, 120, 0.6);
+  --class-bg-3: rgba(30, 30, 45, 0.6);
 }
