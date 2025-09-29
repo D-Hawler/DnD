@@ -11,12 +11,17 @@
 
 html, body, #root {
   height: 100%;
+}
 
+#root {
   background-color: var(--main-color);
   color: var(--main-text-color);
 
   transition: background-color 0.5s;
   transition: color 0.5s;
+
+  display: flex;
+  flex-direction: column;
 }
 
 h1, h2 {
