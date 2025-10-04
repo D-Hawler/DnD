@@ -32,21 +32,23 @@ nav > div > ul > li {
   list-style: none;
 }
 
-nav > div > ul > li > button {
+nav > div > ul > li > button, nav > div > button {
   padding: 5px 8px;
 
   font-weight: 900;
+
+  background-color: var(--main-color);
+  color: var(--main-text-color);
 
   border: 1px solid var(--border-color);
   border-radius: 10px;
+
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+  transition: border 0.5s;
 }
 
 nav > div > button {
-  padding: 5px 8px;
-
-  font-weight: 900;
-
-  border: 1px solid var(--border-color);
   border-radius: 50%;
 }
 
@@ -55,7 +57,8 @@ nav > div > button:active {
   transform: scale(0.9);
 }
 
-nav > div > button > a > img {
-  width: 15px;
-  height: 15px;
+nav > div > button > a > svg {
+  fill: var(--main-text-color);
+
+  transition: fill 0.5s;
 }

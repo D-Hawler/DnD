@@ -1,3 +1,5 @@
+@import '../../variables.css';
+
 .classPage {
   flex: 1 1 100%;
 }
@@ -13,6 +15,9 @@
   border-top: 2px solid var(--border-color);
   border-bottom: 2px solid var(--border-color);
 
+  transition: border-top 0.5s;
+  transition: border-bottom 0.5s;
+
   display: flex;
 }
 
@@ -20,6 +25,8 @@
   padding: 0 10px;
 
   border-left: 2px solid var(--border-color);
+
+  transition: border-left 0.5s;
 
   text-align: center;
   writing-mode: vertical-rl;
@@ -36,15 +43,21 @@
 }
 
 .classPage > div > article > div > div:nth-child(1) {
-  background-color: rgba(110, 110, 110, 0.4);
+  background-color: var(--class-bg-1);
+
+  transition: background-color 0.5s;
 }
 
 .classPage > div > article > div > div:nth-child(2) {
-  background-color: rgba(172, 123, 32, 0.4);
+  background-color: var(--class-bg-2);
+
+  transition: background-color 0.5s;
 }
 
 .classPage > div > article > div > div:nth-child(3) {
-  background-color: rgba(35, 65, 172, 0.4);
+  background-color: var(--class-bg-3);
+
+  transition: background-color 0.5s;
 }
 
 .classPage > div > article > div > div > ul {

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import ThemeToggleButton from '../ThemeToggleButton/ThemeToggleButton';
 
 import logo from '../../assets/logo.png';
 import style from './Logo.module.css';
@@ -9,24 +10,21 @@ interface LogoProp {
 }
 
 function Logo({ icon, className }: LogoProp) {
-  if (icon != null || className != null) {
-    return (
-      <header className={style.logo}>
-        <Link to="/">
-          <h1>
-            {icon} Класс: {className}
-          </h1>
-        </Link>
-      </header>
-    );
-  }
-
   return (
     <header className={style.logo}>
       <Link to="/">
-        <img src={logo} />
-        <h1>DnD skill list:</h1>
+        {!icon && !className && <img src={logo} />}
+        <h1>
+          {icon != null || className != null ? (
+            <>
+              {icon} Класс: {className}
+            </>
+          ) : (
+            <>DnD skill list:</>
+          )}
+        </h1>
       </Link>
+      <ThemeToggleButton />
     </header>
   );
 }

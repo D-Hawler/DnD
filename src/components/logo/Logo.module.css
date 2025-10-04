@@ -6,6 +6,13 @@
 
   background-color: var(--navigation-color);
   border-radius: 20px;
+
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo > a {
@@ -23,4 +30,33 @@
 
 .logo > h1 {
   font-size: 2.5rem;
+}
+
+.logo > button {
+  padding: 5px 8px;
+
+  font-weight: 900;
+
+  background-color: var(--main-color);
+  color: var(--main-text-color);
+
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+  transition: border 0.5s;
+}
+
+.logo > button:active {
+  transform: scale(0.9);
+}
+
+.logo > button > svg {
+  width: 15px;
+  height: 15px;
+
+  fill: var(--main-text-color);
+
+  transition: fill 0.5s;
 }
